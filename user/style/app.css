@@ -304,9 +304,6 @@ a {
         font-size: 30px;
         cursor: pointer; }
 
-.singer__body {
-  padding: var(--padding-album); }
-
 .singer {
   background-clip: content-box;
   width: 100%; }

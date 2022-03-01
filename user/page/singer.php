@@ -75,10 +75,7 @@ $indexSinger = 1;
             <?php echo getSinger($indexSinger)["nicknameSinger"] ?>
         </div>
     </div>
-<!--    <div class="singer__des highlight ">-->
-<!--        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi, et expedita itaque iure maiores perferendis quaerat qui repudiandae! Architecto enim esse et expedita itaque minus quia quisquam repellat repudiandae temporibus!-->
-<!--        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid amet, dolores esse labore maiores nisi quam voluptas voluptatibus. Accusamus aut blanditiis cum cumque cupiditate illo ipsum magni quaerat? Autem, quod.-->
-<!--    </div>-->
+
 </div>
 <div class="fakeHeaderSpace">
 
