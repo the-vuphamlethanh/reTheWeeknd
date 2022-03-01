@@ -8,6 +8,11 @@
     <link rel="stylesheet" href="../style/app.css">
     <title>Document</title>
 </head>
+<?php
+include "../script/php/DataProcessor.php";
+$singerList = getData("../script/data/mainData.json");
+$indexSinger = 1;
+?>
 <body class="singer__body">
 
 <div class="search__wrap">
@@ -64,216 +69,24 @@
 <div class="singer">
     <div class="singer__header">
         <div class="singer__avatar">
-            <img src="https://i.scdn.co/image/ab6761610000e5eb66e0a040a53996e8bf19f9b5" alt="">
+            <img src="<?php echo getSinger($indexSinger)["linkImage"] ?>" alt="">
         </div>
         <div class="singer__name">
-            NGOT
+            <?php echo getSinger($indexSinger)["nicknameSinger"] ?>
         </div>
     </div>
-    <div class="singer__des highlight">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi, et expedita itaque iure maiores perferendis quaerat qui repudiandae! Architecto enim esse et expedita itaque minus quia quisquam repellat repudiandae temporibus!
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid amet, dolores esse labore maiores nisi quam voluptas voluptatibus. Accusamus aut blanditiis cum cumque cupiditate illo ipsum magni quaerat? Autem, quod.
-    </div>
+<!--    <div class="singer__des highlight ">-->
+<!--        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi, et expedita itaque iure maiores perferendis quaerat qui repudiandae! Architecto enim esse et expedita itaque minus quia quisquam repellat repudiandae temporibus!-->
+<!--        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid amet, dolores esse labore maiores nisi quam voluptas voluptatibus. Accusamus aut blanditiis cum cumque cupiditate illo ipsum magni quaerat? Autem, quod.-->
+<!--    </div>-->
 </div>
 <div class="fakeHeaderSpace">
 
 </div>
 <div class="album">
-    <div class="album__item">
-        <div class="album__item--primary">
-            <div class="album__item--primary__img">
-                <img src="https://www.theweeknd.com/sites/g/files/aaj14496/f/styles/suzuki_breakpoints_image_mobile-lg_sq/public/release/202103/ab67616d0000b273274b406a7e18acebcf743079.jpg?itok=JUd3shfn" alt="">
-            </div>
-            <!--            <div class="album__item&#45;&#45;primary__tag">@album</div>-->
-        </div>
-        <div class="album__item__description">
-            <div class="album__item__description__artist">The Weeknd</div>
-            <div class="album__item__description__name">"BLINDING LIGHT"</div>
-            <div class="album__item__description__price">1000$</div>
-        </div>
-    </div>
-    <div class="album__item">
-        <div class="album__item--primary">
-            <div class="album__item--primary__img">
-                <img src="https://www.theweeknd.com/sites/g/files/aaj14496/f/styles/suzuki_breakpoints_image_mobile-lg_sq/public/release/202110/ab67616d0000b273c3ee50b0720f476670e16407.jpg?itok=AbS_Hkfq" alt="">
-            </div>
-            <!--            <div class="album__item&#45;&#45;primary__tag">@album</div>-->
-        </div>
-        <div class="album__item__description">
-            <div class="album__item__description__artist">The Weeknd</div>
-            <div class="album__item__description__name">"BLINDING LIGHT ASDSADK"</div>
-            <div class="album__item__description__price">1000$</div>
-        </div>
-    </div>
-    <div class="album__item">
-        <div class="album__item--primary">
-            <div class="album__item--primary__img">
-                <img src="https://www.theweeknd.com/sites/g/files/aaj14496/f/styles/suzuki_breakpoints_image_tablet_sq/public/release/202108/TMB.jpg?itok=OW5CGl5Z" alt="">
-            </div>
-            <!--            <div class="album__item&#45;&#45;primary__tag">@album</div>-->
-        </div>
-        <div class="album__item__description">
-            <div class="album__item__description__artist">The Weeknd</div>
-            <div class="album__item__description__name">"BLINDING LIGHT"</div>
-            <div class="album__item__description__price">1000$</div>
-        </div>
-    </div>
-    <div class="album__item">
-        <div class="album__item--primary">
-            <div class="album__item--primary__img">
-                <img src="https://www.theweeknd.com/sites/g/files/aaj14496/f/styles/suzuki_breakpoints_image_mobile-lg_sq/public/release/202002/ab67616d0000b27380e1e80874a5b25317c380c5.jpg?itok=kG1xcFML" alt="">
-            </div>
-            <!--            <div class="album__item&#45;&#45;primary__tag">@album</div>-->
-        </div>
-        <div class="album__item__description">
-            <div class="album__item__description__artist">The Weeknd</div>
-            <div class="album__item__description__name">"BLINDING LIGHT"</div>
-            <div class="album__item__description__price">1000$</div>
-        </div>
-    </div>
-    <div class="album__item">
-        <div class="album__item--primary">
-            <div class="album__item--primary__img">
-                <img src="https://www.theweeknd.com/sites/g/files/aaj14496/f/styles/suzuki_breakpoints_image_mobile-lg_sq/public/release/202002/ab67616d0000b27380e1e80874a5b25317c380c5.jpg?itok=kG1xcFML" alt="">
-            </div>
-            <!--            <div class="album__item&#45;&#45;primary__tag">@album</div>-->
-        </div>
-        <div class="album__item__description">
-            <div class="album__item__description__artist">The Weeknd</div>
-            <div class="album__item__description__name">"BLINDING LIGHT"</div>
-            <div class="album__item__description__price">1000$</div>
-        </div>
-    </div>
-    <div class="album__item">
-        <div class="album__item--primary">
-            <div class="album__item--primary__img">
-                <img src="https://www.theweeknd.com/sites/g/files/aaj14496/f/styles/suzuki_breakpoints_image_mobile-lg_sq/public/release/202103/ab67616d0000b273274b406a7e18acebcf743079.jpg?itok=JUd3shfn" alt="">
-            </div>
-            <!--            <div class="album__item&#45;&#45;primary__tag">@album</div>-->
-        </div>
-        <div class="album__item__description">
-            <div class="album__item__description__artist">The Weeknd</div>
-            <div class="album__item__description__name">"BLINDING LIGHT"</div>
-            <div class="album__item__description__price">1000$</div>
-        </div>
-    </div>
-    <div class="album__item">
-        <div class="album__item--primary">
-            <div class="album__item--primary__img">
-                <img src="https://www.theweeknd.com/sites/g/files/aaj14496/f/styles/suzuki_breakpoints_image_mobile-lg_sq/public/release/202110/ab67616d0000b273c3ee50b0720f476670e16407.jpg?itok=AbS_Hkfq" alt="">
-            </div>
-            <!--            <div class="album__item&#45;&#45;primary__tag">@album</div>-->
-        </div>
-        <div class="album__item__description">
-            <div class="album__item__description__artist">The Weeknd</div>
-            <div class="album__item__description__name">"BLINDING LIGHT ASDSADK"</div>
-            <div class="album__item__description__price">1000$</div>
-        </div>
-    </div>
-    <div class="album__item">
-        <div class="album__item--primary">
-            <div class="album__item--primary__img">
-                <img src="https://www.theweeknd.com/sites/g/files/aaj14496/f/styles/suzuki_breakpoints_image_tablet_sq/public/release/202108/TMB.jpg?itok=OW5CGl5Z" alt="">
-            </div>
-            <!--            <div class="album__item&#45;&#45;primary__tag">@album</div>-->
-        </div>
-        <div class="album__item__description">
-            <div class="album__item__description__artist">The Weeknd</div>
-            <div class="album__item__description__name">"BLINDING LIGHT"</div>
-            <div class="album__item__description__price">1000$</div>
-        </div>
-    </div>
-    <div class="album__item">
-        <div class="album__item--primary">
-            <div class="album__item--primary__img">
-                <img src="https://www.theweeknd.com/sites/g/files/aaj14496/f/styles/suzuki_breakpoints_image_mobile-lg_sq/public/release/202002/ab67616d0000b27380e1e80874a5b25317c380c5.jpg?itok=kG1xcFML" alt="">
-            </div>
-            <!--            <div class="album__item&#45;&#45;primary__tag">@album</div>-->
-        </div>
-        <div class="album__item__description">
-            <div class="album__item__description__artist">The Weeknd</div>
-            <div class="album__item__description__name">"BLINDING LIGHT"</div>
-            <div class="album__item__description__price">1000$</div>
-        </div>
-    </div>
-    <div class="album__item">
-        <div class="album__item--primary">
-            <div class="album__item--primary__img">
-                <img src="https://www.theweeknd.com/sites/g/files/aaj14496/f/styles/suzuki_breakpoints_image_mobile-lg_sq/public/release/202002/ab67616d0000b27380e1e80874a5b25317c380c5.jpg?itok=kG1xcFML" alt="">
-            </div>
-            <!--            <div class="album__item&#45;&#45;primary__tag">@album</div>-->
-        </div>
-        <div class="album__item__description">
-            <div class="album__item__description__artist">The Weeknd</div>
-            <div class="album__item__description__name">"BLINDING LIGHT"</div>
-            <div class="album__item__description__price">1000$</div>
-        </div>
-    </div>
-    <div class="album__item">
-        <div class="album__item--primary">
-            <div class="album__item--primary__img">
-                <img src="https://www.theweeknd.com/sites/g/files/aaj14496/f/styles/suzuki_breakpoints_image_mobile-lg_sq/public/release/202103/ab67616d0000b273274b406a7e18acebcf743079.jpg?itok=JUd3shfn" alt="">
-            </div>
-            <!--            <div class="album__item&#45;&#45;primary__tag">@album</div>-->
-        </div>
-        <div class="album__item__description">
-            <div class="album__item__description__artist">The Weeknd</div>
-            <div class="album__item__description__name">"BLINDING LIGHT"</div>
-            <div class="album__item__description__price">1000$</div>
-        </div>
-    </div>
-    <div class="album__item">
-        <div class="album__item--primary">
-            <div class="album__item--primary__img">
-                <img src="https://www.theweeknd.com/sites/g/files/aaj14496/f/styles/suzuki_breakpoints_image_mobile-lg_sq/public/release/202110/ab67616d0000b273c3ee50b0720f476670e16407.jpg?itok=AbS_Hkfq" alt="">
-            </div>
-            <!--            <div class="album__item&#45;&#45;primary__tag">@album</div>-->
-        </div>
-        <div class="album__item__description">
-            <div class="album__item__description__artist">The Weeknd</div>
-            <div class="album__item__description__name">"BLINDING LIGHT ASDSADK"</div>
-            <div class="album__item__description__price">1000$</div>
-        </div>
-    </div>
-    <div class="album__item">
-        <div class="album__item--primary">
-            <div class="album__item--primary__img">
-                <img src="https://www.theweeknd.com/sites/g/files/aaj14496/f/styles/suzuki_breakpoints_image_tablet_sq/public/release/202108/TMB.jpg?itok=OW5CGl5Z" alt="">
-            </div>
-            <!--            <div class="album__item&#45;&#45;primary__tag">@album</div>-->
-        </div>
-        <div class="album__item__description">
-            <div class="album__item__description__artist">The Weeknd</div>
-            <div class="album__item__description__name">"BLINDING LIGHT"</div>
-            <div class="album__item__description__price">1000$</div>
-        </div>
-    </div>
-    <div class="album__item">
-        <div class="album__item--primary">
-            <div class="album__item--primary__img">
-                <img src="https://www.theweeknd.com/sites/g/files/aaj14496/f/styles/suzuki_breakpoints_image_mobile-lg_sq/public/release/202002/ab67616d0000b27380e1e80874a5b25317c380c5.jpg?itok=kG1xcFML" alt="">
-            </div>
-            <!--            <div class="album__item&#45;&#45;primary__tag">@album</div>-->
-        </div>
-        <div class="album__item__description">
-            <div class="album__item__description__artist">The Weeknd</div>
-            <div class="album__item__description__name">"BLINDING LIGHT"</div>
-            <div class="album__item__description__price">1000$</div>
-        </div>
-    </div>
-    <div class="album__item">
-        <div class="album__item--primary">
-            <div class="album__item--primary__img">
-                <img src="https://www.theweeknd.com/sites/g/files/aaj14496/f/styles/suzuki_breakpoints_image_mobile-lg_sq/public/release/202002/ab67616d0000b27380e1e80874a5b25317c380c5.jpg?itok=kG1xcFML" alt="">
-            </div>
-            <!--            <div class="album__item&#45;&#45;primary__tag">@album</div>-->
-        </div>
-        <div class="album__item__description">
-            <div class="album__item__description__artist">The Weeknd</div>
-            <div class="album__item__description__name">"BLINDING LIGHT"</div>
-            <div class="album__item__description__price">1000$</div>
-        </div>
-    </div>
+    <?php
+    renderSingerAlbum($singerList, $indexSinger)
+    ?>
 </div>
 
 </body>

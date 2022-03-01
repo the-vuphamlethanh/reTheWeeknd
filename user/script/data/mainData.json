@@ -1,0 +1,341 @@
+[
+  {
+    "idSinger": "01",
+    "nicknameSinger": "Đen Vâu",
+    "nameSinger": "Nguyễn Đức Cường",
+    "gender": "male",
+    "description": "",
+    "linkImage": "https://i.scdn.co/image/ab67706c0000bebb4626aa086d4eea68a2eeca07",
+    "listAlbum": [
+      {
+        "idAlbum": "01",
+        "nameAlbum": "Mang tiền về cho mẹ",
+        "imgAlbum": "https://i.scdn.co/image/ab67616d00001e0249d5fbb90bd190dc81286c17",
+        "priceAlbum": 5000000,
+        "descriptionAlbum": "",
+        "listSong": [
+          {
+            "idSong": "01",
+            "idCategory": "01",
+            "nameSong": "Mang tiền về cho mẹ",
+            "imgSong": "https://i.scdn.co/image/ab67616d00001e0249d5fbb90bd190dc81286c17",
+            "iframeSpotify": "<iframe style='border-radius:12px' src='https://open.spotify.com/embed/track/57lYw21pS9FprSeJimskIC?utm_source=generator' width='100%' height='380' frameBorder='0' allowfullscreen='' allow='autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture'></iframe>",
+            "time": "6:45",
+            "lyric": ""
+          }
+        ]
+      },
+      {
+        "idAlbum": "02",
+        "nameAlbum": "Show của Đen",
+        "imgAlbum": "https://i.scdn.co/image/ab67616d00001e024888abe8ee4d110278a67538",
+        "priceAlbum": 5000000,
+        "descriptionAlbum": "",
+        "listSong": [
+          {
+            "idSong": "01",
+            "idCategory": "01",
+            "nameSong": "Mười năm",
+            "imgSong": "https://i.scdn.co/image/ab67616d00001e024888abe8ee4d110278a67538",
+            "iframeSpotify": "<iframe style='border-radius:12px' src='https://open.spotify.com/embed/track/2H5XRciniz2nQ0jhaZJcd9?utm_source=generator' width='100%' height='380' frameBorder='0' allowfullscreen='' allow='autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture'></iframe>",
+            "time": "4:45",
+            "lyric": ""
+          },
+          {
+            "idSong": "02",
+            "idCategory": "02",
+            "nameSong": "Đi theo bóng mặt trời",
+            "imgSong": "https://i.scdn.co/image/ab67616d00001e024888abe8ee4d110278a67538",
+            "iframeSpotify": "<iframe style='border-radius:12px' src='https://open.spotify.com/embed/track/3vrtrHN8QFUdGheMzPs8j3?utm_source=generator' width='100%' height='380' frameBorder='0' allowfullscreen='' allow='autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture'></iframe>",
+            "time": "3:36",
+            "lyric": ""
+          },
+          {
+            "idSong": "03",
+            "idCategory": "03",
+            "nameSong": "Bài này chill phết",
+            "imgSong": "https://i.scdn.co/image/ab67616d00001e024888abe8ee4d110278a67538",
+            "iframeSpotify": "<iframe style='border-radius:12px' src='https://open.spotify.com/embed/track/6ztkb5MiGLM6TqodbVDGTE?utm_source=generator' width='100%' height='380' frameBorder='0' allowfullscreen='' allow='autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture'></iframe>",
+            "time": "4:54",
+            "lyric": ""
+          },
+          {
+            "idSong": "04",
+            "idCategory": "04",
+            "nameSong": "Hai triệu năm",
+            "imgSong": "https://i.scdn.co/image/ab67616d00001e024888abe8ee4d110278a67538",
+            "iframeSpotify": "<iframe style='border-radius:12px' src='https://open.spotify.com/embed/track/0ROEej67C7sB3bk6SnBiEE?utm_source=generator' width='100%' height='380' frameBorder='0' allowfullscreen='' allow='autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture'></iframe>",
+            "time": "4:58",
+            "lyric": ""
+          },
+          {
+            "idSong": "05",
+            "idCategory": "05",
+            "nameSong": "Đưa nhau đi trốn",
+            "imgSong": "https://i.scdn.co/image/ab67616d00001e024888abe8ee4d110278a67538",
+            "iframeSpotify": "<iframe style='border-radius:12px' src='https://open.spotify.com/embed/track/6fH70e3UxJFNmLApdijeGa?utm_source=generator' width='100%' height='380' frameBorder='0' allowfullscreen='' allow='autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture'></iframe>",
+            "time": "4:25",
+            "lyric": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "idSinger": "02",
+    "nicknameSinger": "Sơn Tùng M-TP    ",
+    "nameSinger": "Nguyễn Thanh Tùng",
+    "gender": "male",
+    "description": "",
+    "linkImage": "https://i.scdn.co/image/ab67616d00001e0229f906fe7a60df7777b02ee1",
+    "listAlbum": [
+      {
+        "idAlbum": "01",
+        "nameAlbum": "Muộn rồi mà sao còn",
+        "imgAlbum": "https://i.scdn.co/image/ab67616d00001e0229f906fe7a60df7777b02ee1",
+        "priceAlbum": 9000000,
+        "descriptionAlbum": "",
+        "listSong": [
+          {
+            "idSong": "01",
+            "idCategory": "01",
+            "nameSong": "Muộn rồi mà sao còn",
+            "imgSong": "https://i.scdn.co/image/ab67616d00001e0229f906fe7a60df7777b02ee1",
+            "iframeSpotify": "<iframe style='border-radius:12px' src='https://open.spotify.com/embed/track/5fFLotKS1286huYIMQHqz7?utm_source=generator' width='100%' height='380' frameBorder='0' allowfullscreen='' allow='autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture'></iframe>",
+            "time": "4:35",
+            "lyric": ""
+          }
+        ]
+      },
+      {
+        "idAlbum": "02",
+        "nameAlbum": "Sky tour",
+        "imgAlbum": "https://i.scdn.co/image/ab67616d00001e027663e8afc902209090664782",
+        "priceAlbum": 10000000,
+        "descriptionAlbum": "",
+        "listSong": [
+          {
+            "idSong": "01",
+            "idCategory": "01",
+            "nameSong": "Có chắc yêu là đây",
+            "imgSong": "https://i.scdn.co/image/ab67616d00001e02659e798cad5728dbeabf1603",
+            "iframeSpotify": "<iframe style='border-radius:12px' src='https://open.spotify.com/embed/track/2z9iLlNBt1aLZUCFgXby97?utm_source=generator' width='100%' height='380' frameBorder='0' allowfullscreen='' allow='autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture'></iframe>",
+            "time": "3:22",
+            "lyric": ""
+          },
+          {
+            "idSong": "02",
+            "idCategory": "02",
+            "nameSong": "Chắc ai đó sẽ về",
+            "imgSong": "https://i.scdn.co/image/ab67616d00001e027663e8afc902209090664782",
+            "iframeSpotify": "<iframe style='border-radius:12px' src='https://open.spotify.com/embed/track/52iqc0W2KlifPTp5IIwQvn?utm_source=generator' width='100%' height='380' frameBorder='0' allowfullscreen='' allow='autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture'></iframe>",
+            "time": "4:43",
+            "lyric": ""
+          },
+          {
+            "idSong": "03",
+            "idCategory": "03",
+            "nameSong": "Chúng ta không thuộc về nhau",
+            "imgSong": "https://i.scdn.co/image/ab67616d00001e027663e8afc902209090664782",
+            "iframeSpotify": "<iframe style='border-radius:12px' src='https://open.spotify.com/embed/track/3fidy9x1CoAeDGZIsOTOKE?utm_source=generator' width='100%' height='380' frameBorder='0' allowfullscreen='' allow='autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture'></iframe>",
+            "time": "4:07",
+            "lyric": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "idSinger": "03",
+    "nicknameSinger": "Hòa Minzy",
+    "nameSinger": "Nguyễn Thị Hòa",
+    "gender": "Female",
+    "description": "",
+    "linkImage": "https://i.scdn.co/image/ab67616d0000b273f7407ae1b90b818281caa0fc",
+    "listAlbum": [
+      {
+        "idAlbum": "01",
+        "nameAlbum": "Tết nhà mình",
+        "imgAlbum": "https://i.scdn.co/image/ab67616d0000b273f7407ae1b90b818281caa0fc",
+        "priceAlbum": 6000000,
+        "descriptionAlbum": "",
+        "listSong": [
+          {
+            "idSong": "01",
+            "idCategory": "01",
+            "nameSong": "Tết nhà mình",
+            "imgSong": "https://i.scdn.co/image/ab67616d0000b273f7407ae1b90b818281caa0fc",
+            "iframeSpotify": "<iframe style='border-radius:12px' src='https://open.spotify.com/embed/track/15yC0BCinDyknKpjk0VLku?utm_source=generator' width='100%' height='380' frameBorder='0' allowfullscreen='' allow='autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture'></iframe>",
+            "time": "3:55",
+            "lyric": ""
+          },
+          {
+            "idSong": "02",
+            "idCategory": "02",
+            "nameSong": "Đêm lao xao",
+            "imgSong": "https://i.scdn.co/image/ab67616d0000b273f7407ae1b90b818281caa0fc",
+            "iframeSpotify": "<iframe style='border-radius:12px' src='https://open.spotify.com/embed/track/6yKJYa4ZJxw9JIzD7LfmcB?utm_source=generator' width='100%' height='380' frameBorder='0' allowfullscreen='' allow='autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture'></iframe>",
+            "time": "3:59",
+            "lyric": ""
+          },
+          {
+            "idSong": "03",
+            "idCategory": "03",
+            "nameSong": "Rời bỏ",
+            "imgSong": "https://i.scdn.co/image/ab67616d0000b273f7407ae1b90b818281caa0fc",
+            "iframeSpotify": "<iframe style='border-radius:12px' src='https://open.spotify.com/embed/track/7ETHb1PenqqFpmc7cbtoo2?utm_source=generator' width='100%' height='380' frameBorder='0' allowfullscreen='' allow='autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture'></iframe>",
+            "time": "4:31",
+            "lyric": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "idSinger": "03",
+    "nicknameSinger": "Wendy Thảo",
+    "nameSinger": "Nguyễn Thảo Kha",
+    "gender": "Female",
+    "description": "",
+    "linkImage": "https://i.scdn.co/image/ab67616d00001e02f88b2dfb3afc17cf1bf34743",
+    "listAlbum": [
+      {
+        "idAlbum": "01",
+        "nameAlbum": "Những bài hát mới nhất",
+        "imgAlbum": "https://i.scdn.co/image/ab67616d00001e02f88b2dfb3afc17cf1bf34743",
+        "priceAlbum": 6000000,
+        "descriptionAlbum": "",
+        "listSong": [
+          {
+            "idSong": "01",
+            "idCategory": "01",
+            "nameSong": "Làm người yêu em nhé baby",
+            "imgSong": "https://i.scdn.co/image/ab67616d0000b273e9b30b4d442a1c2f3aa32a92",
+            "iframeSpotify": "<iframe style='border-radius:12px' src='https://open.spotify.com/embed/track/6DR20nlDeDIyEaRg1DZk68?utm_source=generator' width='100%' height='380' frameBorder='0' allowfullscreen='' allow='autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture'></iframe>",
+            "time": "4:04",
+            "lyric": ""
+          },
+          {
+            "idSong": "02",
+            "idCategory": "02",
+            "nameSong": "Vì anh là gió",
+            "imgSong": "https://i.scdn.co/image/ab67616d00001e02f88b2dfb3afc17cf1bf34743",
+            "iframeSpotify": "<iframe style='border-radius:12px' src='https://open.spotify.com/embed/track/7Ih7okthgT6xHxA31pRA6K?utm_source=generator' width='100%' height='380' frameBorder='0' allowfullscreen='' allow='autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture'></iframe>",
+            "time": "4:29",
+            "lyric": ""
+          },
+          {
+            "idSong": "03",
+            "idCategory": "03",
+            "nameSong": "Không còn nợ nhau",
+            "imgSong": "https://i.scdn.co/image/ab67616d00001e02f88b2dfb3afc17cf1bf34743",
+            "iframeSpotify": "<iframe style='border-radius:12px' src='https://open.spotify.com/embed/track/1eXHH9bdyl7bP7DBlHhQ2x?utm_source=generator' width='100%' height='380' frameBorder='0' allowfullscreen='' allow='autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture'></iframe>",
+            "time": "3:41",
+            "lyric": ""
+          },
+          {
+            "idSong": "04",
+            "idCategory": "04",
+            "nameSong": "Đừng nhìn em khóc mới biết em đau",
+            "imgSong": "https://i.scdn.co/image/ab67616d00001e02f88b2dfb3afc17cf1bf34743",
+            "iframeSpotify": "<iframe style='border-radius:12px' src='https://open.spotify.com/embed/track/6TqxyWVehHcnzHjOpMBcd5?utm_source=generator' width='100%' height='380' frameBorder='0' allowfullscreen='' allow='autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture'></iframe>",
+            "time": "4:34",
+            "lyric": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "idSinger": "04",
+    "nicknameSinger": "Đức Phúc",
+    "nameSinger": "Nguyễn Đức Phúc",
+    "gender": "male",
+    "description": "",
+    "linkImage": "https://i.scdn.co/image/ab67616d00001e0214443d5ee6cd6d03949f8da1",
+    "listAlbum": [
+      {
+        "idAlbum": "01",
+        "nameAlbum": "Những bài hát mới nhất",
+        "imgAlbum": "https://i.scdn.co/image/ab67616d00001e0214443d5ee6cd6d03949f8da1",
+        "priceAlbum": 6000000,
+        "descriptionAlbum": "",
+        "listSong": [
+          {
+            "idSong": "01",
+            "idCategory": "01",
+            "nameSong": "Ngày đầu tiên",
+            "imgSong": "https://i.scdn.co/image/ab67616d00001e0214443d5ee6cd6d03949f8da1",
+            "iframeSpotify": "<iframe style='border-radius:12px' src='https://open.spotify.com/embed/track/5Msoarj5hk9LguTtiIyqug?utm_source=generator' width='100%' height='380' frameBorder='0' allowfullscreen='' allow='autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture'></iframe>",
+            "time": "3:28",
+            "lyric": ""
+          },
+          {
+            "idSong": "02",
+            "idCategory": "02",
+            "nameSong": "Nguoi oi nguoi o dung ve",
+            "imgSong": "https://i.scdn.co/image/ab67616d00001e02e90844f67adfa95ce2a58a70",
+            "iframeSpotify": "<iframe style='border-radius:12px' src='https://open.spotify.com/embed/track/5uye47llqkE8Oyn56Y3IkW?utm_source=generator' width='100%' height='380' frameBorder='0' allowfullscreen='' allow='autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture'></iframe>",
+            "time": "3:19",
+            "lyric": ""
+          }
+        ]
+      },
+      {
+        "idAlbum": "02",
+        "nameAlbum": "Hơn cả yêu",
+        "imgAlbum": "https://i.scdn.co/image/ab67616d00001e02d47c601ea25c6121cf2fc8fc",
+        "priceAlbum": 6000000,
+        "descriptionAlbum": "",
+        "listSong": [
+          {
+            "idSong": "01",
+            "idCategory": "01",
+            "nameSong": "Hơn cả yêu",
+            "imgSong": "https://i.scdn.co/image/ab67616d00001e02d47c601ea25c6121cf2fc8fc",
+            "iframeSpotify": "<iframe style='border-radius:12px' src='https://open.spotify.com/embed/track/4KayB6Q0VQk2I4LkAxnsVm?utm_source=generator' width='100%' height='380' frameBorder='0' allowfullscreen='' allow='autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture'></iframe>",
+            "time": "4:39",
+            "lyric": ""
+          },
+          {
+            "idSong": "02",
+            "idCategory": "02",
+            "nameSong": "Năm ấy",
+            "imgSong": "https://i.scdn.co/image/ab67616d00001e0209b6b199f656bb5723c03479",
+            "iframeSpotify": "<iframe style='border-radius:12px' src='https://open.spotify.com/embed/track/7BSyMiUKDSXdnZ9wTmLPKv?utm_source=generator' width='100%' height='380' frameBorder='0' allowfullscreen='' allow='autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture'></iframe>",
+            "time": "4:20",
+            "lyric": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "idSinger": "05",
+    "nicknameSinger": "Đông Nhi",
+    "nameSinger": "Mai Hồng Ngọc",
+    "gender": "Female",
+    "description": "",
+    "linkImage": "https://i.scdn.co/image/ab67616d00001e026e6dc4d40a2c8b2a92dc8163",
+    "listAlbum": [
+      {
+        "idAlbum": "01",
+        "nameAlbum": "Ta là của nhau",
+        "imgAlbum": "https://i.scdn.co/image/ab67616d00001e0259bcf8a6aa52ac7f49416998",
+        "priceAlbum": 6000000,
+        "descriptionAlbum": "",
+        "listSong": [
+          {
+            "idSong": "01",
+            "idCategory": "01",
+            "nameSong": "Ta là của nhau",
+            "imgSong": "https://i.scdn.co/image/ab67616d00001e0259bcf8a6aa52ac7f49416998",
+            "iframeSpotify": "<iframe style='border-radius:12px' src='https://open.spotify.com/embed/track/0M5LwukCOAKOmzKPh01GPa?utm_source=generator' width='100%' height='380' frameBorder='0' allowfullscreen='' allow='autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture'></iframe>",
+            "time": "2:59",
+            "lyric": ""
+          }
+        ]
+      }
+    ]
+  }
+]

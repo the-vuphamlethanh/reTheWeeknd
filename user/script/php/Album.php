@@ -1,5 +1,5 @@
 <?php
-class album
+class Album
 {
     private $idAlbum;
     private $nameAlbum;

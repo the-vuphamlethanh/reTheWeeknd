@@ -130,72 +130,10 @@
             ARTIST
         </div>
         <div class="result__artist__container result">
-            <div class="artist__item">
-                <div class="artist__item--primary">
-                    <div class="artist__item--primary__img">
-                        <img src="https://www.theweeknd.com/sites/g/files/aaj14496/f/styles/suzuki_breakpoints_image_mobile-lg_sq/public/release/202002/ab67616d0000b27380e1e80874a5b25317c380c5.jpg?itok=kG1xcFML" alt="">
-                    </div>
-                    <!--            <div class="album__item&#45;&#45;primary__tag">@album</div>-->
-                </div>
-                <div class="album__item__description">
-                    <div class="album__item__description__name">"The Weeknd"</div>
-                </div>
-            </div>
-            <div class="artist__item">
-                <div class="artist__item--primary">
-                    <div class="artist__item--primary__img">
-                        <img src="https://m.media-amazon.com/images/I/91mDjSqe2kL._SL1500_.jpg" alt="">
-                    </div>
-                    <!--            <div class="album__item&#45;&#45;primary__tag">@album</div>-->
-                </div>
-                <div class="album__item__description">
-                    <div class="album__item__description__name">"The Weeknd"</div>
-                </div>
-            </div>
-            <div class="artist__item">
-                <div class="artist__item--primary">
-                    <div class="artist__item--primary__img">
-                        <img src="https://www.theweeknd.com/sites/g/files/aaj14496/f/styles/suzuki_breakpoints_image_mobile-lg_sq/public/release/202002/ab67616d0000b27380e1e80874a5b25317c380c5.jpg?itok=kG1xcFML" alt="">
-                    </div>
-                    <!--            <div class="album__item&#45;&#45;primary__tag">@album</div>-->
-                </div>
-                <div class="album__item__description">
-                    <div class="album__item__description__name">"The Weeknd"</div>
-                </div>
-            </div>
-            <div class="artist__item">
-                <div class="artist__item--primary">
-                    <div class="artist__item--primary__img">
-                        <img src="https://m.media-amazon.com/images/I/91mDjSqe2kL._SL1500_.jpg" alt="">
-                    </div>
-                    <!--            <div class="album__item&#45;&#45;primary__tag">@album</div>-->
-                </div>
-                <div class="album__item__description">
-                    <div class="album__item__description__name">"The Weeknd"</div>
-                </div>
-            </div>
-            <div class="artist__item">
-                <div class="artist__item--primary">
-                    <div class="artist__item--primary__img">
-                        <img src="https://www.theweeknd.com/sites/g/files/aaj14496/f/styles/suzuki_breakpoints_image_mobile-lg_sq/public/release/202002/ab67616d0000b27380e1e80874a5b25317c380c5.jpg?itok=kG1xcFML" alt="">
-                    </div>
-                    <!--            <div class="album__item&#45;&#45;primary__tag">@album</div>-->
-                </div>
-                <div class="album__item__description">
-                    <div class="album__item__description__name">"The Weeknd"</div>
-                </div>
-            </div>
-            <div class="artist__item">
-                <div class="artist__item--primary">
-                    <div class="artist__item--primary__img">
-                        <img src="https://m.media-amazon.com/images/I/91mDjSqe2kL._SL1500_.jpg" alt="">
-                    </div>
-                    <!--            <div class="album__item&#45;&#45;primary__tag">@album</div>-->
-                </div>
-                <div class="album__item__description">
-                    <div class="album__item__description__name">"The Weeknd"</div>
-                </div>
-            </div>
+            <?php
+            include "../script/php/DataProcessor.php";
+            renderAllSinger(getData("../script/data/mainData.json"))
+            ?>
         </div>
     </div>
 </div>
