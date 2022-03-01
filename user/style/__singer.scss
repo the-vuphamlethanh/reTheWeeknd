@@ -1,0 +1,31 @@
+.singer__body{
+  padding: var(--padding-album);
+}
+
+.singer{
+  background-clip: content-box;
+  width: 100%;
+  &__header{
+    display: flex;
+    //flex-direction: column;
+    width: 100%;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+
+  }
+  &__des{
+    text-align: center;
+  }
+  &__avatar{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    overflow: hidden;
+    border: 2px solid var(--background-color-selected);
+  }
+  &__name{
+    font-size: 40px;
+  }
+}

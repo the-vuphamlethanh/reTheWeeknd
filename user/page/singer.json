@@ -1,0 +1,29 @@
+[
+  {
+    "idSinger": "2022-4-5-3-pm",
+    "nicknameSinger": "abc",
+    "gender": "male",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat nemo repellat voluptas sapiente illum? Cupiditate facere, cum aut asperiores dolore perferendis? Facilis nostrum deleniti eaque! Exercitationem quo aliquid consequuntur explicabo.",
+    "img": "https://event.mediacdn.vn/2020/8/14/st-15973999489741584015103.jpg",
+    "listAlbum": [
+      {
+        "idAlbum": "2022-4-4-4-pm",
+        "nameAlbum": "Gió thu",
+        "img": "https://i.ytimg.com/vi/vnXvYy_GIGI/maxresdefault.jpg",
+        "priceAlbum": 300000,
+        "descriptionAlbum": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae nesciunt iste a obcaecati, rerum ullam dicta impedit provident voluptatum temporibus fuga possimus nihil mollitia voluptas qui odit! Facilis, fugiat laudantium?",
+        "listSong": [
+          {
+            "idSong": "2022-1-1-1-am",
+            "idCategory": "",
+            "nameSong": "Chắc ai đó sẽ về",
+            "imgSong": "http://imgs.vietnamnet.vn/Images/vnn/2014/12/18/08/20141218082625-a.jpg",
+            "iframeSpotify": "<iframe style='border-radius:12px' src='https://open.spotify.com/embed/track/5Msoarj5hk9LguTtiIyqug?utm_source=generator' width='100%' height='380' frameBorder='0' allowfullscreen='' allow='autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture'></iframe>",
+            "time": "4 phút 20 giây",
+            "lyric": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci omnis ducimus, quibusdam alias officiis perspiciatis tempore error cupiditate ullam commodi, unde laborum eaque quo consectetur, suscipit placeat itaque laboriosam. Nemo!"
+          }
+        ]
+      }
+    ]
+  }
+]

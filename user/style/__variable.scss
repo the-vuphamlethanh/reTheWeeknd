@@ -1,0 +1,63 @@
+:root{
+  --height-header: 60px;
+
+  --background-color: #F2F2F2;
+  --background-color-selected: #A31E32;
+
+  --color-title: #303030;
+
+  --fz-album-name: 20px;
+  --fz-body: 16px;
+  --fz-result-title: 45px;
+
+  --fw-album-name: 600;
+
+  --padding-album: 0 5vw;
+
+  --margin-top-album-item-description-ele: 5px;
+
+  --gtc-album: repeat(5, 1fr);
+
+  --gac-result: 20%;
+
+  --gap-album: 20px;
+
+  @media screen and (max-width: 1300px) {
+    --gtc-album: repeat(4, 1fr);
+
+    --gac-result: 25%;
+
+    --fz-result-title: 40px;
+
+    --padding-album: 0 3vw;
+  }
+  @media screen and (max-width: 1000px) {
+    --fz-body: 14px;
+    --fz-result-title: 35px;
+
+    --fw-album-name: 500;
+
+    --gac-result: 33%;
+
+    --gtc-album: repeat(3, 1fr);
+  }
+  @media screen and (max-width: 650px) {
+    --padding-album: 0 2vw;
+
+    --fz-album-name: 18px;
+    --fz-result-title: 30px;
+
+    --gac-result: 45%;
+
+    --gtc-album: repeat(2, 1fr);
+  }
+  @media screen and (max-width: 350px) {
+    --fz-album-name: 14px;
+    --fz-body: 12px;
+    --fz-result-title: 20px;
+
+    --gac-result: 60%;
+
+    --gtc-album: 1fr;
+  }
+}

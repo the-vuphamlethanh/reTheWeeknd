@@ -1,0 +1,29 @@
+.album{
+  padding: var(--padding-album);
+  display: grid;
+  grid-template-columns: var(--gtc-album);
+  gap: var(--gap-album);
+  &__item{
+    &__description{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      &>*{
+        margin-top: var(--margin-top-album-item-description-ele);
+      }
+      &__name{
+        text-align: center;
+        font-size: var(--fz-album-name);
+        font-weight: var(--fw-album-name);
+        color: var(--color-title);
+      }
+    }
+    &--primary{
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: 0.3s;
+    }
+  }
+}
