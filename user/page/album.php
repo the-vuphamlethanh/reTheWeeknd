@@ -67,6 +67,107 @@
     ?>
 </div>
 
+
+<div class="modal-content">
+    <div class="modal-header">
+        <h1 class="modal-title" id="exampleModalLabel">New content</h1>
+    </div>
+    <p class="border-bottom"></p>
+    <div class="contact-form-wrapper">
+        <form action="#" method="POST" class="contact-form">
+            <div class="form-content">
+                <label class="form-laber" for="imgAlbum">ImgAlbum</label>
+                <input class="form-input" id="imgAlbum" name="imgAlbum" type="text">
+            </div>
+            <div class="form-content">
+                <label class="form-laber" for="nameAlbum">NameAlbum</label>
+                <input class="form-input" id="nameAlbum" name="nameAlbum" type="text">
+            </div>
+            <div class="form-content">
+                <label class="form-laber" for="priceAlbum">PriceAlbum</label>
+                <input class="form-input" id="priceAlbum" name="priceAlbum" type="text">
+            </div>
+            <div class="form-content">
+                <label class="form-laber" for="descriptionAlbum">Description</label>
+                <textarea class="form-input" id="descriptionAlbum" name="descriptionAlbum" type="text" rows="5" cols="30"></textarea>
+            </div>
+            <div class="submit-button-wrapper">
+                <input class="form-submit" type="submit"  name="Submit" value="Send">
+            </div>
+        </form>
+    </div>
+</div>
+
+<div class="modal-content">
+    <div class="modal-header">
+        <h1 class="modal-title" id="exampleModalLabel">New content</h1>
+    </div>
+    <p class="border-bottom"></p>
+    <div class="contact-form-wrapper">
+        <form action="#" method="POST" class="contact-form">
+            <div class="form-content">
+                <label class="form-laber" for="imgAlbum">Nick name</label>
+                <input class="form-input" id="imgAlbum" name="nickname" type="text">
+            </div>
+            <div class="form-content">
+                <label class="form-laber" for="nameAlbum">Name</label>
+                <input class="form-input" id="nameAlbum" name="name" type="text">
+            </div>
+            <div class="form-content">
+                <label class="form-laber" for="priceAlbum">gender</label>
+                <input class="form-input" id="priceAlbum" name="gender" type="text">
+            </div>
+            <div class="form-content">
+                <label class="form-laber" for="priceAlbum">link IMG</label>
+                <input class="form-input" id="priceAlbum" name="gender" type="text">
+            </div>
+            <div class="form-content">
+                <label class="form-laber" for="descriptionAlbum">Description</label>
+                <textarea class="form-input" id="descriptionAlbum" name="descriptionAlbum" type="text" rows="5"
+                          cols="30"></textarea>
+            </div>
+            <div class="submit-button-wrapper">
+                <input class="form-submit" type="submit" name="Submit" value="Send">
+            </div>
+        </form>
+    </div>
+</div>
+
+<div class="modal-content">
+    <div class="modal-header">
+        <h1 class="modal-title" id="exampleModalLabel">New Song</h1>
+    </div>
+    <p class="border-bottom"></p>
+    <div class="contact-form-wrapper">
+        <form action="#" method="POST" class="contact-form">
+            <div class="form-content">
+                <label class="form-laber" for="nameSong">Name Song:</label>
+                <input class="form-input" id="nameSong" name="nameSong" type="text">
+            </div>
+            <div class="form-content">
+                <label class="form-laber" for="imageSong">Link Image Song:</label>
+                <input class="form-input" id="imageSong" name="imageSong" type="text">
+            </div>
+            <div class="form-content">
+                <label class="form-laber" for="iframeSpotify">IfremSpotify:</label>
+                <input class="form-input" id="iframeSpotify" name="iframeSpotify" type="text">
+            </div>
+            <div class="form-content">
+                <label class="form-laber" for="time">Time:</label>
+                <input class="form-input" id="time" name="time" type="text">
+            </div>
+            <div class="form-content">
+                <label class="form-laber" for="lyrics">Lyrics:</label>
+                <textarea class="form-input" id="lyrics" name="lyrics" type="text" rows="5" cols="30"></textarea>
+            </div>
+            <div class="submit-button-wrapper">
+                <input class="form-submit" type="submit"  name="Submit" value="Send">
+            </div>
+        </form>
+    </div>
+</div>
+
+
 </body>
 <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
 <script src="../script/javascript/searchTongue.js"></script>

@@ -11,8 +11,11 @@
 
 <?php
 include "../script/php/DataProcessor.php";
-$indexSinger = 1;
-$indexAlbum = 1;
+$actual_link = "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
+$components = parse_url($actual_link);
+parse_str($components['query'], $results);
+$indexSinger = intval($results["indexSinger"]);
+$indexAlbum = intval($results["indexAlbum"]);
 ?>
 
 <body>
@@ -77,7 +80,7 @@ $indexAlbum = 1;
             <span class="highlight">"<?php echo getAlbum($indexSinger, $indexAlbum)["nameAlbum"]; ?>"</span>
         </div>
         <div class="album--detailed__content__price">
-            <?php echo getAlbum($indexSinger, $indexAlbum)["priceAlbum"]; ?>$
+            <?php echo getAlbum($indexSinger, $indexAlbum)["priceAlbum"];?>$
         </div>
         <div class="album--detailed__content__artist">
             <img src="<?php echo getSinger($indexSinger)["linkImage"]; ?>" alt="" class="artist__img">
